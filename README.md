@@ -13,11 +13,7 @@ Configures UFW to allow SSH and Flatnotes traffic
 
 Outputs the local access URL
 
- File Structure
-bash
-~/myproject/
-├── flatnotes-data/        # Persistent data volume for Flatnotes
-└── setup_flatnotes.sh     # This setup script
+
  Usage
 1. Make the script executable
 bash
