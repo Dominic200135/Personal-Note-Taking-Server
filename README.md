@@ -26,7 +26,7 @@ If Docker is not installed, the script will install it and prompt you to log out
 Authentication & Security
 Username: user
 
-Password: changeMe!
+Password: password
 
 Secret Key: Used for session encryption. Change this to a secure, random string.
 
