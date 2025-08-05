@@ -5,7 +5,7 @@ set -e
 FLATNOTES_PORT=8080
 DATA_DIR="$HOME/myproject/flatnotes-data"
 USERNAME="user"
-PASSWORD="changeMe!"
+PASSWORD="password"
 SECRET_KEY="aLongRandomSeriesOfCharacters"
 
 # Install Docker if missing
