@@ -8,15 +8,10 @@ USERNAME="user"
 PASSWORD="password"
 SECRET_KEY="aLongRandomSeriesOfCharacters"
 
-# Install Docker if missing
-if ! command -v docker &> /dev/null; then
-    sudo apt update
-    sudo apt install -y docker.io
-    sudo systemctl enable docker --now
-    sudo usermod -aG docker $USER
-    echo "Docker installed. Please relogin to apply group changes."
-    exit 1
-fi
+sudo apt update
+sudo apt install -y docker.io
+sudo systemctl enable docker --now
+sudo usermod -aG docker $USER
 
 # Create data directory
 mkdir -p "$DATA_DIR"
